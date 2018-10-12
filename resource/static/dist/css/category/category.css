@@ -1,0 +1,10 @@
+.category-input{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.category-input>div{
+    margin-bottom: 20px;
+}
+.category-operate{
+    margin: 20px 0;
+}

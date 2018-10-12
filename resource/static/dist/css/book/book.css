@@ -1,0 +1,39 @@
+.content-operate{
+    padding-left: 40px;
+    padding-right: 16px;
+}
+.book-name{
+    width: 355px !important;
+}
+.book-info li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.book-time{
+    width: 118px !important;
+}
+.book-pageNum{
+    width: 91px !important;
+}
+.book-credit{
+    width: 105px !important;
+}
+.book-exp{
+    color: red;
+    font-size: 12px;
+    margin-left: 73px;
+    margin-bottom: 10px;
+}
+.book-cover>span{
+    color: red;
+    font-size: 12px;
+}
+.book-operate{
+    margin-top: 20px;
+}
+.book-operate input{
+    font-size: 12px;
+    width: 99px;
+    height: 31px;
+    margin-right: 15px;
+}

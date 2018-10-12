@@ -1,0 +1,73 @@
+.content-operate{
+    padding-left: 40px;
+    padding-right: 16px;
+}
+.book-name{
+    width: 355px !important;
+}
+.text-time{
+    width: 118px !important;
+}
+.text-pageNum{
+    width: 91px !important;
+}
+.text-credit{
+    width: 105px !important;
+}
+.text-exp{
+    color: red;
+    font-size: 12px;
+    margin-left: 73px;
+    margin-bottom: 10px;
+}
+.text-cover>span{
+    color: red;
+    font-size: 12px;
+}
+.text-operate{
+    margin-top: 20px;
+}
+.text-operate input{
+    font-size: 12px;
+    width: 99px;
+    height: 31px;
+    margin-right: 15px;
+}
+.book{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.text-info,.text-detail{
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.text-detail>div{
+    margin-bottom: 20px;
+}
+.text-info{
+    padding-left: 0;
+    border-right: 1px solid #e2e2e2;
+}
+.text-info div{
+    margin-bottom: 10px;
+}
+.unit li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.text-img{
+    margin-left: 75px;
+}
+.text-img input.btn-pink{
+    width: 116px;
+    height: 31px;
+    font-size: 12px;
+}
+.text-img>div{
+    margin-bottom: 20px;
+}
+.text-img input.img-import{
+    width: 230px;
+    margin-right: 10px;
+}

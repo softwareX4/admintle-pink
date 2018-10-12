@@ -1,0 +1,19 @@
+.select-keyword {
+    font-size: 14px;
+}
+.select-keyword .btn-pink{
+    width: 65px;
+    height: 22px;
+}
+.select-keyword input[type = "text"]{
+    margin-right: 10px;
+    width: 194px;
+    height: 25px;
+}
+.content-select{
+    border-top: 1px solid #eee;
+}
+.order-operate{
+    margin-top: 30px;
+    padding-left: 40px;
+}

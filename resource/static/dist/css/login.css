@@ -1,0 +1,70 @@
+body{
+    overflow-y: hidden;
+}
+.login-container{
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 340px;
+    overflow: hidden;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 141px;
+    height: 141px;
+}
+.logo h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-form{
+    border: 1px solid rgba(255, 153, 51, 1);
+    border-radius: 10px;
+    width: 340px;
+    padding: 15px;
+}
+.login-form h2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+.form-horizontal .form-group {
+    margin: 0;
+    padding: 5px 0;
+}
+.form-group{
+    border-top: 1px solid #ccc;
+}
+.form-group label{
+    font-family: 'PingFangSC-Regular', 'PingFang SC';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.form-group:nth-child(3) div.fl{
+    padding-right: 0;
+}
+.login-form .login-btn{
+    display: block;
+    height: 42px;
+    width: 296px;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'PingFangSC-Regular', 'PingFang SC';
+}
+.verification-code{
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.verification-code{
+    width: 85px;
+}

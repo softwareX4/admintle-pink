@@ -1,0 +1,16 @@
+.member-table,.member-detail,.member-img{
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 0;
+}
+.member-detail>div{
+    margin-bottom: 20px;
+}
+.member-table{
+    padding-left: 0;
+}
+.member-info{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    overflow: hidden;
+}
