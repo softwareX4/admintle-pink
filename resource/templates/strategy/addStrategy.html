@@ -116,7 +116,7 @@
     </aside>
 
     <div class="content-wrapper">
-        <section class="content col-xs-11" >
+        <section class="content col-xs-11">
             <div class="content-title-wrapper cf">
                 <div class="content-title fl">营销策略 > 添加策略</div>
             </div>
@@ -136,8 +136,31 @@
                                 <span>策略描述：</span>
                                 <textarea type="text" class="form-control width-8"></textarea>
                             </div>
+                            <div class="radio-group">
+                                <div>
+                                    <span>获取方式：</span>
+                                    <div class="inlineBlock width-8">
+                                        <input type="radio" name="radio">充值兑换
+                                        <div class="inlineBlock col-md-offset-1">
+                                            充值金额：
+                                            <input type="number" class="form-control">
+                                        </div>
+                                        <div class="inlineBlock col-md-offset-1">
+                                            兑换学分：
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="width-8">
+                                    <input type="radio" name="radio">免费赠送
+                                    <div class="inlineBlock col-md-offset-1">
+                                        赠送学分：
+                                        <input type="number" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
                             <div>
-                                <span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;有效期：</span>
+                                <span class="vertical-top">&nbsp;&nbsp;&nbsp;&nbsp;有效期：</span>
                                 <div class="inlineBlock ">
                                     <input type="date" class="form-control">
                                     <select name="" class="form-control">
@@ -160,7 +183,15 @@
                             </div>
                             <div>
                                 适用范围：
-                                <select name="" class="form-control width-2"></select>
+                                <select name="" class="form-control width-2">
+                                    <option value="">新用户</option>
+                                    <option value="">全体用户</option>
+                                </select>
+                            </div>
+                            <div>
+                                <span class="category-des">
+                                    使用范围分为：新注册用户和全体用户
+                                </span>
                             </div>
                         </div>
                         <div class="category-operate">

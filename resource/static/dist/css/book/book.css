@@ -3,15 +3,15 @@
     padding-right: 16px;
 }
 .book-name{
-    width: 355px !important;
+    width: 309px !important;
 }
 .book-info li{
     display: inline-block;
     margin-right: 25px;
 }
-.book-time{
-    width: 118px !important;
-}
+/*.book-time{*/
+    /*width: 118px !important;*/
+/*}*/
 .book-pageNum{
     width: 91px !important;
 }

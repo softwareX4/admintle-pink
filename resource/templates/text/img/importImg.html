@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="../../../static/components/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="../../../static/components/Ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="../../../static/components/admintle/css/AdminLTE.css">
-    <link rel="stylesheet" href="../../../static/components/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../../static/components/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../../../static/components/admintle/css/skins/skin-red.css">
     <link rel="stylesheet" href="../../../static/dist/css/common/common.css">
     <link rel="stylesheet" href="../../../static/dist/css/text/text.css">
+
 </head>
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
@@ -143,10 +144,10 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td >1</td>
-                                            <td >P-人教PEP三上-01-01</td>
-                                            <td >1</td>
-                                            <td >2</td>
+                                            <td>1</td>
+                                            <td>P-人教PEP三上-01-01</td>
+                                            <td>1</td>
+                                            <td>2</td>
                                             <td>
                                                 <a href="javascript:void(0)" class="">查看</a> |
                                                 <a href="javascript:void(0)" class="">删除</a> |
@@ -154,10 +155,10 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td >1</td>
-                                            <td >P-人教PEP三上-01-01</td>
-                                            <td >1</td>
-                                            <td >2</td>
+                                            <td>1</td>
+                                            <td>P-人教PEP三上-01-01</td>
+                                            <td>1</td>
+                                            <td>2</td>
                                             <td>
                                                 <a href="javascript:void(0)" class="">查看</a> |
                                                 <a href="javascript:void(0)" class="">删除</a> |
@@ -165,10 +166,10 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td >1</td>
-                                            <td >P-人教PEP三上-01-01</td>
-                                            <td >1</td>
-                                            <td >2</td>
+                                            <td>1</td>
+                                            <td>P-人教PEP三上-01-01</td>
+                                            <td>1</td>
+                                            <td>2</td>
                                             <td>
                                                 <a href="javascript:void(0)" class="">查看</a> |
                                                 <a href="javascript:void(0)" class="">删除</a> |
@@ -176,10 +177,10 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td >1</td>
-                                            <td >P-人教PEP三上-01-01</td>
-                                            <td >1</td>
-                                            <td >2</td>
+                                            <td>1</td>
+                                            <td>P-人教PEP三上-01-01</td>
+                                            <td>1</td>
+                                            <td>2</td>
                                             <td>
                                                 <a href="javascript:void(0)" class="">查看</a> |
                                                 <a href="javascript:void(0)" class="">删除</a> |
@@ -191,7 +192,7 @@
                                 </div>
                                 <div class="text-detail col-md-6">
                                     <div>
-                                        <a href="#" >添加单张图片</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                        <a href="#">添加单张图片</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                                         <a href="#" class="pink-color">批量导入图片</a>
                                     </div>
                                     <div>
@@ -199,13 +200,16 @@
                                         <span class="description pink-color">图片规格1000*2000像素</span>
                                     </div>
                                     <div class="text-img">
-                                        <div>
-                                            <input type="text" class="form-control img-import" placeholder="选择图片文件存放路径">
-                                            <input type="button" class="btn btn-default" value="选择">
+                                        <div class="file-error">
+                                            请上传固定格式文件！
                                         </div>
                                         <div>
-                                            <input type="button" class="btn btn-pink btn-big" value="确认添加">
-
+                                            <input type="text" class="form-control file-path" placeholder="选择图片文件存放路径">
+                                            <input type="file" class="file" style="display:none">
+                                            <input type="button" class="btn btn-default file-btn" value="选择">
+                                        </div>
+                                        <div>
+                                            <input type="button" class="btn btn-pink btn-big submit-btn" value="确认添加">
                                         </div>
                                     </div>
 
@@ -228,5 +232,8 @@
 
 <script src="../../../static/components/jquery/jquery.js"></script>
 <script src="../../../static/components/admintle/js/adminlte.js"></script>
+<script src="../../../static/dist/js/component/fileUpload.js"></script>
+
+
 </body>
 </html>

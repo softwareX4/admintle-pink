@@ -5,6 +5,20 @@
 .category-input>div{
     margin-bottom: 20px;
 }
+.category-input>div:nth-child(6){
+    margin-bottom: 5px;
+}
 .category-operate{
     margin: 20px 0;
+}
+.radio-group>div:first-child{
+    margin-bottom: 10px;
+}
+.radio-group>div:last-child{
+    margin-left: 73px;
+}
+.category-des{
+    color: red;
+    font-size: 12px;
+    margin-left: 73px;
 }

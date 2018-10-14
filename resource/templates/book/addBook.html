@@ -5,13 +5,16 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>新增课本</title>
     <link rel="stylesheet" href="../../static/dist/css/common/reset.css">
-    <link rel="stylesheet" href="../../static/components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../../static/components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../static/components/Ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="../../static/components/admintle/css/AdminLTE.css">
-    <link rel="stylesheet" href="../../static/components/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../static/components/admintle/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="../../static/components/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../static/components/fileinput/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../../static/components/admintle/css/skins/skin-red.css">
     <link rel="stylesheet" href="../../static/dist/css/common/common.css">
     <link rel="stylesheet" href="../../static/dist/css/book/book.css">
+    <link rel="stylesheet" href="../../static/dist/css/components/myFileinput.css">
+
 </head>
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
@@ -197,9 +200,19 @@
                         <div class="book-exp">
                             自动命名规则：三级分类 + 四级分类 + 五级分类
                         </div>
-                        <div class="book-cover">
+                        <div>
                             封面图片：<span>图片规格1000*2000像素，点击图片框上传或修改图片。</span>
-                            <input type="file" >
+                        </div>
+                        <div class="book-cover col-sm-12">
+
+                            <div id="kv-avatar-errors-2" class="center-block" style="width:800px;display:none"></div>
+                            <div class="col-sm-4 text-center">
+                                <div class="kv-avatar">
+                                    <div class="file-loading">
+                                        <input id="avatar-add" name="avatar-add" type="file" required>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="book-operate">
                             <input type="button" class="btn btn-pink" value="保存返回">
@@ -214,7 +227,14 @@
 </div>
 
 
-<script src="../../static/components/jquery/jquery.js"></script>
-<script src="../../static/components/admintle/js/adminlte.js"></script>
+<script src="../../static/components/jquery/jquery.min.js"></script>
+<script src="../../static/components/admintle/js/adminlte.min.js"></script>
+<script src="../../static/components/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../static/components/fileinput/js/fileinput.js"></script>
+<script src="../../static/components/fileinput/js/plugins/piexif.min.js"></script>
+<script src="../../static/components/fileinput/themes/fa/theme.min.js"></script>
+<script src="../../static/components/fileinput/js/locales/zh.js"></script>
+<script src="../../static/dist/js/component/imgUpload.js"></script>
+
 </body>
 </html>
