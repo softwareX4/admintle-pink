@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../static/components/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="../../static/components/Ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="../../static/components/admintle/css/AdminLTE.css">
-    <link rel="stylesheet" href="../../static/components/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../static/components/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../../static/components/admintle/css/skins/skin-red.css">
     <link rel="stylesheet" href="../../static/dist/css/common/common.css">
     <link rel="stylesheet" href="../../static/dist/css/index.css">
@@ -133,7 +133,7 @@
                             </div>
                             <div>
                                 <span>兑换比例：</span>
-                                1元人民币等于 <input type="number" class="form-control width-1"> 学分
+                                1元人民币等于 <input type="number" class="form-control width-1" min="0" step="10" value="100"> 学分
 
                             </div>
                             <div>
@@ -147,7 +147,7 @@
                                 </div>
                                 <div class="inlineBlock col-md-offset-1">
                                     每消费单元价格：
-                                    <input type="number" class="form-control width-4">
+                                    <input type="number" class="form-control width-4" min="0" step="10" value="50">
                                     学分
                                 </div>
                             </div>
